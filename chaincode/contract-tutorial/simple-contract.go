@@ -202,7 +202,7 @@ func (s *SimpleContract) CreateResult(ctx contractapi.TransactionContextInterfac
 	// Get the number out of proposal ID
 	re := regexp.MustCompile(`[0-9]+`)
 	idNumber := string(re.Find([]byte(proposalID)))
-	id := "result" + idNumber
+	id := "RESULT" + idNumber
 
 	resultAsBytes, _ := json.Marshal(result)
 
