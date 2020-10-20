@@ -1,5 +1,4 @@
-module github.com/hyperledger/fabric-samples/chaincode/contract-tutorial
-// module github.com/hanesbarbosa/fabric-samples/chaincode/contract-tutorial
+module github.com/hanesbarbosa/fabric-samples/chaincode/contract-tutorial
 
 go 1.15
 
